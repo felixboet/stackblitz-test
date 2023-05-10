@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Signika Negative';
+    src: url('../fonts/SignikaNegative-Regular.woff2') format('woff2'),
+        url('../fonts/SignikaNegative-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika Negative';
+    src: url('../fonts/SignikaNegative-Bold.woff2') format('woff2'),
+        url('../fonts/SignikaNegative-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
